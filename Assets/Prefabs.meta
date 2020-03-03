@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Prefabs.meta
 guid: 14cdfa0a884f91843803c5c22cc7bb17
+=======
+guid: 5b3b75894063e624fa7fcf9b676f47a7
+>>>>>>> Tyler's-Branch:Assets/Code.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
