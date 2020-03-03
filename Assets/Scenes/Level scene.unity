@@ -129,6 +129,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 445375608}
+  - component: {fileID: 445375609}
   m_Layer: 0
   m_Name: Gun point
   m_TagString: Untagged
@@ -150,6 +151,19 @@ Transform:
   m_Father: {fileID: 1481354760}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &445375609
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 445375607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 202730542cf23c7469a6f39c901e7ae3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bullet1: {fileID: 9056740468002718004, guid: 7018c08ff946c4e4b8faf82789705e14, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -340,7 +354,7 @@ GameObject:
   - component: {fileID: 1481354761}
   m_Layer: 0
   m_Name: White_Cell_place_Art
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -442,3 +456,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e17ad9606687b664e9403e2e58fd791e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Bullet1: {fileID: 0}

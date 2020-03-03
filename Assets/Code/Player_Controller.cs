@@ -8,7 +8,6 @@ public class Player_Controller : MonoBehaviour
     private float PlayerSpeed = 3;
 
     private Rigidbody2D PlayerBody;
-    public Rigidbody2D Bullet1;
     private Vector2 moveVelocity;
 
     // Start is called before the first frame update
