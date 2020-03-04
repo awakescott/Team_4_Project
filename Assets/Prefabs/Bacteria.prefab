@@ -146,7 +146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minSpeed: 1
   maxSpeed: 3
-  speed: 2
+  speed: 5
   changeSpeed: 2
   animationCurve:
     serializedVersion: 2
