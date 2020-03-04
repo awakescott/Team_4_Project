@@ -61,7 +61,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPool:
-  - {fileID: 7540557423996930102, guid: 9611a7b9f194db74bb38ddf4453d242f, type: 3}
+  - {fileID: 2349503136977782033, guid: 71604cac53a16d046a53233c2188a6a2, type: 3}
   delay: 2
   isActive: 1
   direction: {x: 1, y: 1}
