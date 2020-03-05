@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DestroyBarrier : MonoBehaviour
 {
-    // Start is called before the first frame update
+    
 
     void OnCollisionEnter2D(Collision2D collision)
     {

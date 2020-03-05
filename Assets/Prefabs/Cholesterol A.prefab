@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: -1911880492562657032}
   m_Layer: 0
   m_Name: Cholesterol A
-  m_TagString: OrangeBullet
+  m_TagString: Enemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98,7 +98,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0031542107, y: 0}
+  m_Offset: {x: -0.00153533, y: -0.0023420155}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -109,7 +109,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.1664734, y: 0.32}
+  m_Size: {x: 0.23212686, y: 0.38092554}
   m_EdgeRadius: 0
 --- !u!50 &1632682468386713505
 Rigidbody2D:
@@ -145,8 +145,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minSpeed: 1
-  maxSpeed: 4
-  speed: 3.5
+  maxSpeed: 2
+  speed: 1.5
   changeSpeed: 2
   animationCurve:
     serializedVersion: 2
