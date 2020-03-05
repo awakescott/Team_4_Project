@@ -292,7 +292,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 463744009}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 202730542cf23c7469a6f39c901e7ae3, type: 3}
   m_Name: 
@@ -1114,7 +1114,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2061749107}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a9919afb3f99d0e4daad152d5a4f5052, type: 3}
   m_Name: 
@@ -1216,6 +1216,7 @@ GameObject:
   - component: {fileID: 2114762719}
   - component: {fileID: 2114762718}
   - component: {fileID: 2114762720}
+  - component: {fileID: 2114762722}
   - component: {fileID: 2114762721}
   m_Layer: 0
   m_Name: White_Cell_place_Art
@@ -1354,6 +1355,25 @@ CircleCollider2D:
   m_Offset: {x: 0.0017729213, y: 0}
   serializedVersion: 2
   m_Radius: 0.12225159
+--- !u!114 &2114762722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2114762715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e6d2439644e2354fb11a51513f2896f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bullet1: {fileID: 8343677038767883948, guid: 894671d922d4b8a47957c4312b3cb88b, type: 3}
+  Bullet2: {fileID: 2701082556975004637, guid: 55887fd0ec3e53543b45a81f5d087237, type: 3}
+  fireRate1: 0.1
+  fireRate2: 0.1
+  nextFire: 0.2
+  blueGun: {fileID: 463744010}
+  orangeGun: {fileID: 2061749108}
 --- !u!1 &2134251184
 GameObject:
   m_ObjectHideFlags: 0
