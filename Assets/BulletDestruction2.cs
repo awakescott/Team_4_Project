@@ -2,25 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DestroyBarrier : MonoBehaviour
+public class BulletDestruction2 : MonoBehaviour
 {
-    
-
+    // Start is called before the first frame update
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "OrangeBullet")
+        if (collision.gameObject.tag == "Enemy")
         {
-            Destroy(collision.collider.gameObject);
+
             Destroy(gameObject);
         }
 
-      
+
 
 
     }
-
-
-
-
-
 }
