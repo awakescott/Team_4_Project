@@ -147,6 +147,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0138efcea817ce4fb8dc00334062062, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathBacteriaSound: {fileID: 1407868806827801662, guid: 15e3b7179d92d7e4799bb495d609e199,
+    type: 3}
 --- !u!58 &885574009179828576
 CircleCollider2D:
   m_ObjectHideFlags: 0

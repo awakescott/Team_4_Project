@@ -660,7 +660,7 @@ GameObject:
   - component: {fileID: 1250314908}
   - component: {fileID: 1250314907}
   m_Layer: 0
-  m_Name: Audio Source
+  m_Name: Music
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -678,7 +678,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 0b5859e08b08d3046a573e4de2e79cc2, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.07
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1336,6 +1336,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 1350967833}
+  deathPlayerSound: {fileID: 6565339018914151664, guid: cd32165428e02524795d4da2b1f8e95a,
+    type: 3}
 --- !u!58 &2114762721
 CircleCollider2D:
   m_ObjectHideFlags: 0

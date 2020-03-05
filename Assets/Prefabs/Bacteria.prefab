@@ -198,3 +198,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c0138efcea817ce4fb8dc00334062062, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  EnemyDeathSound: {fileID: 8300000, guid: 37ea95a82cfdef042a9a56af9b9a4a10, type: 3}
+  audioSource: {fileID: 0}
+  deathBacteriaSound: {fileID: 1525623120780113742, guid: 523d99be3fff1a247994e317470947e6,
+    type: 3}

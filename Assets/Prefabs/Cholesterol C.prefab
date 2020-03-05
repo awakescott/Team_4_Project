@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 3575617986302341094}
   - component: {fileID: 1081738447709683739}
   - component: {fileID: 4892386082487995389}
+  - component: {fileID: 2180974199072006546}
   m_Layer: 0
   m_Name: Cholesterol C
   m_TagString: Enemy2
@@ -97,6 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f708443afe2941f4ab5fb4c53261c3f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathCHOSound: {fileID: 0}
 --- !u!61 &3428018323575999435
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -198,3 +200,17 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2180974199072006546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8276140321502057184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f708443afe2941f4ab5fb4c53261c3f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathCHOSound: {fileID: 1203914886473696862, guid: 24fd8e277fb25784dbdd8ead328fe2d8,
+    type: 3}

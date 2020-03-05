@@ -19,6 +19,8 @@ public class CarrierMovement : MonoBehaviour
 
     public AnimationCurve animationCurve;
 
+   
+
     // Use this for initialization
     void Start()
     {
