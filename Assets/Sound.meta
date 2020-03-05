@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 2f1307d1bae7f424cbb6ef9c43c09bcb
+=======
+guid: 4ba52f379020c1946938f16a6bd4a2ea
+>>>>>>> origin/Audio-Things
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
