@@ -6,7 +6,11 @@ public class DestroyPlayer : MonoBehaviour
 {
 
     public GameObject gameManager;
+<<<<<<< HEAD
     public GameObject deathPlayerSound;
+=======
+    public GameObject Timer;
+>>>>>>> origin/UI-Timer
 
     void OnCollisionEnter2D(Collision2D collision)
     {
@@ -14,7 +18,11 @@ public class DestroyPlayer : MonoBehaviour
         {
             Destroy(gameObject);
             gameManager.SendMessage("OnPlayerDied");
+<<<<<<< HEAD
             Instantiate(deathPlayerSound, transform.position, Quaternion.identity);
+=======
+            Timer.SendMessage("StopTimer");
+>>>>>>> origin/UI-Timer
         }
     }
 }
