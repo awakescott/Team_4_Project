@@ -24,14 +24,15 @@ public class Timer : MonoBehaviour
             time += Time.deltaTime;
         }
 
-        var minutes = time / 60; //Divide the guiTime by sixty to get the minutes.
-        var seconds = time % 60; //Use the euclidean division for the seconds.
-        var fraction = (time * 100) % 100;
+        int minutes = Mathf.FloorToInt(time / 60); //Divide the guiTime by sixty to get the minutes.
+        int seconds = Mathf.FloorToInt(time % 60); //Use the euclidean division for the seconds.
+        int fraction = Mathf.FloorToInt((time * 100) % 100);
 
         if (playTimer == true && canTime == true)
         {
             //update the label value
-            timerLabel.text = string.Format("{0:00} : {1:00} : {2:000}", minutes, seconds, fraction);
+            //timerLabel.text = string.Format("{0:00} : {1:00} : {2:000}", minutes, seconds, fraction);
+            timerLabel.text = minutes.ToString("00") + ":" + seconds.ToString("00") + ":" + fraction.ToString("00");
         }
     }
 
